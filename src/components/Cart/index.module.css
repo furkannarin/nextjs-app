@@ -1,0 +1,75 @@
+.button {
+    position: fixed;
+    bottom: 2vh;
+    right: 2vh;
+    width: 10vh;
+    height: 10vh;
+    background: url('https://cdn-icons-png.flaticon.com/512/263/263142.png') no-repeat center;
+    background-size: 60%;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    position: fixed;
+    bottom: 12vh;
+    right: 2vh;
+    width: 250px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 10vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.itemImage {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.itemText {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(45deg, red, orange);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.removeBtn {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}

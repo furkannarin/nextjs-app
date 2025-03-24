@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 35vh;
+    width: 35vh;
+}
+
+.info {
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    height: 85%;
+    width: 100%;
+}
+
+.title {
+    font-size: 16;
+    font-weight: 300;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price {
+    font-size: 14;
+    font-weight: 600;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnContainer {
+    background-color: green;
+    height: 15vh;
+
+}

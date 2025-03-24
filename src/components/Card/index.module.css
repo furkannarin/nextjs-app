@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex: 1 1 calc(20% - 10px);
+    flex-direction: row;
+    background-color: white;
+    margin: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    border-radius: 10px;
+    margin: 10px;
+    height: 15vh;
+    width: 15vh;
+}
+
+.info {
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 85%;
+    width: 100%;
+}
+
+.model {
+    font-size: 18;
+    font-weight: 300;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.brand {
+    font-size: 12;
+    font-weight: 600;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price {
+    font-size: 16;
+    font-weight: 600;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
